@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(blue,pink,red);
+    background-repeat: no-repeat;
+     height: 100vh;
+}
+.cont{
+    text-align: left; 
+    /* height: 100vh; */
+    /* padding-left: 80vh; */
+    border:10px solid black;
+    width: 60vh;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+}
+button:hover{
+    border-radius: 10px;
+    font-size: 10px;
+    background-image: linear-gradient(blue,aqua,pink);
+    color: cornflowerblue;
+}
+.box{
+    display: grid;
+    height: 60vh;
+    width: 60vh;
+    grid-template-columns: auto auto auto auto;
+}
+.cont input{
+    height: 7vh;
+    width: 58vh;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(14, 13, 13);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.cls{
+    width: 285%;
+}
+
